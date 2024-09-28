@@ -5,7 +5,7 @@ module "network" {
   project_id = var.project
   subnets =  [
   {
-    subnet_name   = "${var.prefix}-subnet"
+    subnet_name   = "${var.prefix}-subnet2"
     subnet_ip     = "10.100.10.0/24"
     subnet_region = var.region
   }
